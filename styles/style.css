@@ -1,25 +1,79 @@
-p {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
+
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "Lexend", sans-serif;
+  background-color: #ECF7FD;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family : inherit;
+  font-size : 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+textarea {
+  overflow: auto;
 }
 
 h1 {
   color: #235AA8;
-  font-size: 55px;
+  font-size: 5rem;
   text-align: center;
-  margin: 0;
+  margin: 0.5em 0 0 0;
   text-shadow: 3px 3px 1px #6FA7F5;
 }
 
 h2 {
   color: #6FA7F5;
-  font-size: 24px;
+  font-size: 2.5rem;
   text-align: center;
-  margin: 0;
+  margin: 0 0 3em 0;
 }
 
-html {
-  font-family: "Lexend", sans-serif;
-  background-color: #ECF7FD;
+p, a, ul, li {
+  font-size: 1.5rem;
 }
+
+footer {
+  color: #6FA7F5;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  width: 18%;
+  margin-right: 2%;
+}
+
+li:last-child a {
+  margin-right: 0;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
