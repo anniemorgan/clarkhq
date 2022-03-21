@@ -28,7 +28,8 @@ textarea {
 
 h1 {
   color: #235AA8;
-  font-size: 5rem;
+  /*font-size: 5rem;*/
+  font-size: calc(1.5rem + 3vw);
   text-align: center;
   margin: 0.5em 0 0 0;
   text-shadow: 3px 3px 1px #6FA7F5;
@@ -36,7 +37,8 @@ h1 {
 
 h2 {
   color: #6FA7F5;
-  font-size: 2.5rem;
+  /*font-size: 2.5rem;*/
+  font-size: calc(0.5rem + 1.5vw);
   text-align: center;
   margin: 0 0 3em 0;
 }
@@ -47,12 +49,15 @@ p, a, ul, li {
 
 footer {
   color: #6FA7F5;
-  font-size: 1.25rem;
+  /*font-size: 1.25rem;*/
+  font-size: calc(0.5rem + 1vw);
   text-align: center;
 }
 
 section {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   flex-flow: row wrap;
 }
 
